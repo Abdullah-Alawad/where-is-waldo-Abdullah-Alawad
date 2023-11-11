@@ -3,7 +3,7 @@ const example = [
   ["A", "A", "A"],
   ["A", "B", "A"]];
 
-  
+
 const whereIsWaldo = (matrix) => {
   for(let i = 0, row = 1; i < matrix.length; i++,row++){
     for(let j = 0, column = 1; j < matrix[i].length; j++, column++){
